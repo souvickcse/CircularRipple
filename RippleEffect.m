@@ -57,14 +57,17 @@
     CABasicAnimation *scaleAnimation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     scaleAnimation.fromValue = [NSValue valueWithCATransform3D:CATransform3DIdentity];
     scaleAnimation.toValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(1.3, 1.3, 1)];
+    scaleAnimation.removedOnCompletion = NO;
     
     CABasicAnimation *alphaAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
     alphaAnimation.fromValue = @1;
+    alphaAnimation.removedOnCompletion = NO;
     alphaAnimation.toValue = @0;
     
     CAAnimationGroup *animation = [CAAnimationGroup animation];
     animation.animations = @[scaleAnimation,alphaAnimation];
     animation.duration = 2.0f;
+    animation.removedOnCompletion = NO;
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     animation.repeatCount = HUGE_VALF;
     [layer addAnimation:animation forKey:nil];
