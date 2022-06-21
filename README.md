@@ -8,8 +8,8 @@
 
 * Set initial values from the IB.
 
-![IBValues](http://nsinit.com/gitimages/RippleEffect2.png)
+![IBValues]([http://nsinit.com/gitimages/RippleEffect2.png](https://github.com/souvickcse/CircularRipple/raw/master/IBValues.png))
 
 ## Result:
 
-![Screenshot GIF](http://nsinit.com/gitimages/RippleEffect.gif)
+![Screenshot GIF]([http://nsinit.com/gitimages/RippleEffect.gif](https://github.com/souvickcse/CircularRipple/raw/master/screenshot.gif))
