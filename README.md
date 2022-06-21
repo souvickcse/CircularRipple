@@ -7,7 +7,7 @@
 
 * Set initial values from the IB.
 
-![IBValues](https://github.com/souvickcse/CircularRipple/raw/master/IBValues.png))
+![IBValues](https://github.com/souvickcse/CircularRipple/raw/master/IBValues.png)
 
 ## Result:
 
